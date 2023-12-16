@@ -1,0 +1,88 @@
+html, body{
+    background-color: #FFFFFF;
+    margin: 0PX;
+    padding: 0px;
+    height: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow:hidden;
+}
+div.corpo{
+    width: 100%;
+    height: 100%;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #EEEEEE;
+    -webkit-box-shadow: 0px 4px 0px 0px #009970;
+    background-image: url(logobf.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position-x: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+    font-weight: 400;
+    color: #2d2d2d;
+}
+nav{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 13%;
+    height: 100%;
+    background-color: #02d49c;
+    margin-top: 4px;
+}
+div.conteudo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    flex-direction: row; 
+}
+article{
+    display: flex;
+   
+    justify-content: center;
+    margin-top: 4px;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+li{
+    display: flex;
+    align-items: center;
+    font-size: 8pt;
+    margin-top: 10px;
+    list-style: none;
+    width: 93%;
+    height: 20px;
+    border: dashed 0.5px #edfffa;
+    border-radius: 5px;
+    /*background-color: #004734;*/
+    color: #FFFFFF;
+    padding-left: 3px;
+    
+}
+li:hover{
+    transition: 0.5s;
+    background-color: #00af80;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+div#powerbi{
+    width: 1000px;
+    height: 486px;
+    /*background-color: aqua;*/
+}
+/*section{
+    margin-top: 4px;
+    width: 15%;
+    height: 100%;
+    background-color: #02d49c;
+}*/
