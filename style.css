@@ -86,3 +86,8 @@ div#powerbi{
     height: 100%;
     background-color: #02d49c;
 }*/
+hr{
+    border: 0px;
+    width: 94%;
+    border-bottom: dashed 0.5px #FFFFFF;
+}
